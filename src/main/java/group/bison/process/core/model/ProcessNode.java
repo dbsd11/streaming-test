@@ -1,6 +1,8 @@
-package group.bison.streaming.core.process;
+package group.bison.process.core.model;
 
 import java.io.Serializable;
+import java.lang.*;
+import java.lang.Process;
 import java.util.Properties;
 
 /**
@@ -14,7 +16,7 @@ public class ProcessNode implements Serializable {
 
     private Long processId;
 
-    private Process process;
+    private java.lang.Process process;
 
     private Long parentId;
 
@@ -50,7 +52,7 @@ public class ProcessNode implements Serializable {
         this.processId = processId;
     }
 
-    public Process getProcess() {
+    public java.lang.Process getProcess() {
         return process;
     }
 

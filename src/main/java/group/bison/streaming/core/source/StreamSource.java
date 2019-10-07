@@ -7,5 +7,5 @@ import group.bison.streaming.core.driver.DriverContext;
  */
 public interface StreamSource<T, S> {
 
-    S streamOf(DriverContext driverContext, Long pid, T schema);
+    S streamOf(DriverContext driverContext, Long processId, T schema);
 }

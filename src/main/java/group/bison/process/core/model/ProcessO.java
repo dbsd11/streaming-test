@@ -1,4 +1,4 @@
-package group.bison.streaming.core.process;
+package group.bison.process.core.model;
 
 import java.io.Serializable;
 import java.util.Properties;
@@ -6,7 +6,7 @@ import java.util.Properties;
 /**
  * Created by BSONG on 2019/9/15.
  */
-public class Process implements Serializable {
+public class ProcessO implements Serializable {
 
     private Long id;
 
